@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "WakeUpAlarm/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "WakeUpAlarm/wsgi.py"
+        }
+    ]
+}
