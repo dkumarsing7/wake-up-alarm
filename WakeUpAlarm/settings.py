@@ -23,7 +23,7 @@ SECRET_KEY = 'django-insecure-bki5vif_1hcg*6mstbxxhl8o52(9#_*$4*07bil5%+!yn=)^s=
 DEBUG = True
 
 # Allowed hosts
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app', 'https://wake-up-alarm.vercel.app', '127.0.0.1', 'localhost']
 
 # NPM bin path
 NPM_BIN_PATH = r'C:\Program Files\nodejs\npm.cmd'
